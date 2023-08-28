@@ -1,0 +1,6 @@
+
+                arr: array[2,3] of integer;
+                main: function void () {
+                    x: integer = arr[1,2] + 23 * foo();
+                }
+                

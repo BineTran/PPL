@@ -1,0 +1,6 @@
+Program([
+	FuncDecl(main, IntegerType, [], None, BlockStmt([]))
+	VarDecl(a, IntegerType, IntegerLit(1))
+	VarDecl(b, AutoType, BinExpr(+, Id(a), IntegerLit(1)))
+	VarDecl(c, AutoType, BinExpr(+, Id(a), FuncCall(main, [])))
+])

@@ -1,0 +1,13 @@
+ 
+                    foo: function auto (c: integer){
+                        if (5 > 3) {
+                            return "a";
+                        }
+                        else 
+                        {   
+                            return 1;
+                        }
+                    }
+                    a: integer = foo(1);
+                    
+                

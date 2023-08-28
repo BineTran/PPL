@@ -1,0 +1,9 @@
+
+                gcdRec: function integer (n: integer, m: integer) {
+                    if (m == 0) return n;
+                    return gcdRec(m, n % m);
+                }
+                main: function void () {
+                    printInteger(gcdRec(340, 23));
+                }
+                

@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(quametmoi, StringType, [InheritParam(n, StringType)], None, BlockStmt([ReturnStmt(IntegerLit(5)), WhileStmt(BinExpr(>, Id(a), IntegerLit(10)), BreakStmt())]))
+])

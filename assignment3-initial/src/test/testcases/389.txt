@@ -1,0 +1,5 @@
+
+                bine : function void (int : integer){
+             aloalo(1234);
+         }
+        

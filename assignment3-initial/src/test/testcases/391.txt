@@ -1,0 +1,9 @@
+
+               bine : function void (int : integer){
+         areuok = "i am not ok";
+         tired = "i am so tied";
+         for (tired = 2, tired < 33, tired + 2){
+             print({1,2,4});
+         }
+         }
+        

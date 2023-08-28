@@ -1,0 +1,6 @@
+
+                main: function void () {
+                    x = readInteger() + 1;
+                    printInteger(x, y);
+                }
+                

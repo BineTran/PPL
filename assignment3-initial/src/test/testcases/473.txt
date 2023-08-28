@@ -1,0 +1,9 @@
+
+                    boo: function auto (n: integer) {
+                        
+                    }
+                    main: function void () {
+                        a: integer = boo(2) + boo(3);
+                        b: string = boo(3);
+                    }
+                

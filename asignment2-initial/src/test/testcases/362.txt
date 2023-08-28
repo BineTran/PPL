@@ -1,0 +1,3 @@
+quametmoi: function string (inherit n: string) {
+                        quametmoi(n + 100);
+                    }

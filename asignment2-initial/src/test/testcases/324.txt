@@ -1,0 +1,4 @@
+a: integer = a <= b; 
+                    fact: function integer (n: auto) {
+                        if(a < 10) a = a + 1;
+                    }

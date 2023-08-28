@@ -1,0 +1,14 @@
+
+                gcd: function integer (n: integer, m: integer) {
+                    while (m != 0) {
+                        n = n % m;
+                        tmp: integer = n;
+                        n = m;
+                        m = tmp;
+                    }
+                    return n;
+                }
+                main: function void () {
+                    printInteger(gcd(340, 23));
+                }
+                

@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([AssignStmt(Id(areuready), BinExpr(+, BinExpr(+, BinExpr(+, BinExpr(+, StringLit(abcb2), IntegerLit(12345)), ArrayLit([IntegerLit(1), IntegerLit(2), IntegerLit(3)])), FuncCall(foo, [IntegerLit(2), IntegerLit(3), IntegerLit(4)])), Id(_)))]))
+])

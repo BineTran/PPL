@@ -1,0 +1,13 @@
+
+                checkPrime: function boolean (n: integer) {
+                    if (n < 2) return false;
+                    i: integer;
+                    for (i = 2, i < n / 2 , 1) {
+                        if (n % i == 0) return false;
+                    }
+                    return true;
+                }
+                main: function void () {
+                    checkPrime(123);
+                }
+                

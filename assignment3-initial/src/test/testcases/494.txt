@@ -1,0 +1,11 @@
+ 
+                    y: function auto() {}
+                    x: function void (a: auto) {
+                        i: integer;
+                        for (i = a, i < 5, i + 1) {
+                            printBoolean(5 == a);
+                        }
+                        i = y; 
+                    }
+                    main: function void () {}        
+                

@@ -1,0 +1,14 @@
+
+                arr: array[10] of float = {0,1,2,3,4,5,6,7,8,9};
+                sumArr: function float (arr: array [10] of float) {
+                    res: float = 0;
+                    i: integer = 0;
+                    while (i < 10) {
+                        res = res + arr[i];
+                        i = i + 1;
+                    }
+                }
+                main: function void () {
+                    printFloat(sumArr(arr));
+                }
+                

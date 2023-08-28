@@ -1,0 +1,11 @@
+
+                pow: function integer (num: integer, exp: integer) {
+                    if (exp == 0) return 1;
+                    tmp: integer = pow(num, exp/2);
+                    if (exp % 2 == 1) return tmp*tmp*num;
+                    else return tmp*tmp;
+                }
+                main: function void () {
+                    printInteger(pow(12,2));
+                }
+                

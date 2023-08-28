@@ -1,0 +1,10 @@
+
+                main: function void () {
+                    x: integer = readInteger();
+                    res: integer = 0;
+                    for (x = x, x > 0, -1) {
+                        res = res + x;
+                    }
+                    printInteger(res);
+                }
+                

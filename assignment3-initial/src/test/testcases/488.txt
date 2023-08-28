@@ -1,0 +1,8 @@
+ 
+                    main1: function float (inherit c: integer){
+                        
+                    }
+                    foo: function integer (a: float) inherit main1{
+                        
+                    }
+                

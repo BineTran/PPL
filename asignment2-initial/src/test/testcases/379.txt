@@ -1,0 +1,13 @@
+
+        main : function void (){
+             printBoolean(anArg);
+             readInteger();
+             printInteger(anArg);
+             readFloat();
+             writeFloat(anAr);
+            readBoolean();
+            printBoolean(anArg);
+            readString() ;
+            a,b,c : string = 1, 2, 3;
+         }
+        

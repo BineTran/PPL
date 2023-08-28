@@ -1,0 +1,9 @@
+
+                sumTo: function integer (n: integer) {
+                    res: integer = 0;
+                    for (n = n, n > 0, -1) res = res + n;
+                }
+                main: function void () {
+                    sumTo(100);
+                }
+                

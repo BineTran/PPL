@@ -1,0 +1,6 @@
+
+                main: function void () {
+                    for (i = foo(), !i, -1) 
+                        x = x + i;
+                }
+                

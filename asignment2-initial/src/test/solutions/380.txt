@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(a, ArrayType([2], BooleanType), ArrayLit([BooleanLit(True), BooleanLit(False)])), CallStmt(print, ArrayCell(a, [IntegerLit(2)])), VarDecl(mynameis, StringType, IntegerLit(2))]))
+	VarDecl(mynameis, StringType, IntegerLit(2))
+])

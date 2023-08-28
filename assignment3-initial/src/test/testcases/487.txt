@@ -1,0 +1,9 @@
+
+                    test1 : function string(y : auto) {
+                        y = 2; // line 2
+                        return "1";
+                    }
+                    main: function void () {
+                        test1(true); // line 6
+                    }
+                

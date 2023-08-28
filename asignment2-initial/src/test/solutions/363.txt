@@ -1,0 +1,4 @@
+Program([
+	VarDecl(a, StringType, StringLit(Chuc mung ban da pass BTL1))
+	FuncDecl(quametmoi, StringType, [InheritParam(n, StringType)], None, BlockStmt([CallStmt(ketthuccuoochoi, IntegerLit(123))]))
+])

@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(bine, VoidType, [Param(int, IntegerType)], None, BlockStmt([AssignStmt(Id(whatisdonem), ArrayLit([ArrayLit([Id(lomg)]), ArrayLit([Id(bine)])]))]))
+])

@@ -1,0 +1,9 @@
+
+                fibo: function integer (n: integer) {
+                    if (n < 2) return 1;
+                    else return fibo(n-1) + fibo(n-2);
+                }
+                main: function void () {
+                    fibo(100);
+                }
+                

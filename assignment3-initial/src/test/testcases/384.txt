@@ -1,0 +1,7 @@
+
+            gcd : function integer (a : integer, b : integer){
+             if (a > b) gcd(a-b,b);
+             if (b > a) gcd (a, b - a);
+             return a;
+         }
+        

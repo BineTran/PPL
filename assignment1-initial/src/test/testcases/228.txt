@@ -1,0 +1,11 @@
+
+                main: function void () {
+                    if (x >= 10) {
+                        x = x + 10;
+                        {}
+                    } 
+                    else {
+                        x = x - 10;
+                    }
+                }
+                

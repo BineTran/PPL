@@ -1,0 +1,7 @@
+a: boolean = (1 + 2) * 3;
+                    fact: function integer (inherit n: string) {
+                        do {
+                            a[0] = 5;
+                        }
+                        while(n <= 5);
+                    }

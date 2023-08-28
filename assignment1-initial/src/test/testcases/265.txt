@@ -1,0 +1,6 @@
+
+                main: function void () {
+                    x = readString()::"12";
+                    printString(x);
+                }
+                

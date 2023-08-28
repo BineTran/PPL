@@ -1,0 +1,2 @@
+x, y, z: integer = 1, 2, .E12;
+        a, b: float;

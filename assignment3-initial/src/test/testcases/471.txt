@@ -1,0 +1,18 @@
+
+                    binarySearch: function integer (a: integer, l: integer, r: integer, x: integer) {
+                        arr: array [6] of integer = {1, 2, 3, 4, 5};
+                        while (l <= r) {
+                            m: integer = l + (r - 1)/2;
+                            if (arr[m] == x) return m;
+                            if (arr[m] < x) l = m + 1;
+                            else r = m - 1;
+                        }
+                        return -1;
+                    }
+                    main: function void () {
+                        arr: array [6] of integer = {1, 2, 3, 4, 5};
+                        n: integer = 5;
+                        x: integer = 10;
+                        result: integer = binarySearch(6, 0, n-1, x-1);
+                    }
+                

@@ -1,0 +1,6 @@
+
+                main: function void () {
+                    main();
+                    foo({1,2,3,4}, "s"::"tring");
+                }
+                

@@ -1,0 +1,12 @@
+main: function void () {
+                    if (x < 10) res = 2.0*x;
+                    else if (x < 100) res = 2.5*x + 35;
+                    else res = x * 5.5 + 3;
+                    
+                    if (x < 10)
+                    if (x == 3) x = x + 3;
+                    else x = 5;
+                    else if (x == 5) x = x + 4;
+
+                    
+                }

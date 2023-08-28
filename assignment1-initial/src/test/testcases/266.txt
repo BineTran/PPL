@@ -1,0 +1,10 @@
+
+                fact: function integer (n: integer) {
+                    if (n <= 1) return 1;
+                    else return n * fact(n-1);
+                }
+                main: function void () {
+                    x: integer = fact(34);
+                    printInteger(x);
+                }
+                

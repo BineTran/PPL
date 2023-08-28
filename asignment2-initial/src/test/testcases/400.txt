@@ -1,0 +1,13 @@
+
+                main: function void () {
+                    while (x) {
+                        if (x) 
+                        do
+                            {
+                                x();
+                                x = x + x() * x();
+                            }
+                        while (x);
+                    }
+                }
+                

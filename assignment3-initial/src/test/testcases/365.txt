@@ -1,0 +1,4 @@
+main : function void (abc : array [2] of float){
+        a = inputStr();
+        if (a == 2) return main();
+       }

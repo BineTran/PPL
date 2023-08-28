@@ -1,0 +1,4 @@
+Program([
+	VarDecl(a, ArrayType([1, 2, 3], IntegerType), StringLit())
+	FuncDecl(fact, IntegerType, [Param(n, AutoType)], None, BlockStmt([WhileStmt(BinExpr(<, Id(a), IntegerLit(10)), BlockStmt([]))]))
+])

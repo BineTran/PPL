@@ -1,0 +1,4 @@
+quametmoi: function string (inherit n: string) {
+                        print("tuimetquaroi");
+                        a[0] = "brrr";
+                    }

@@ -1,0 +1,7 @@
+Program([
+	VarDecl(a, StringType, BinExpr(+, ArrayCell(a, [StringLit(123)]), FuncCall(fc, [Id(_aa)])))
+	VarDecl(a, BooleanType, BinExpr(+, FuncCall(fc, [FuncCall(fc, [ArrayLit([IntegerLit(1), IntegerLit(2), IntegerLit(3)])])]), ArrayLit([IntegerLit(1), IntegerLit(2), StringLit(a)])))
+	VarDecl(a, BooleanType, BinExpr(+, FuncCall(fc, [FuncCall(fc, [ArrayLit([IntegerLit(1), IntegerLit(2), IntegerLit(3)])])]), Id(abc)))
+	FuncDecl(quametmoi, StringType, [InheritParam(n, StringType)], None, BlockStmt([ReturnStmt(IntegerLit(5)), WhileStmt(BinExpr(>, Id(a), IntegerLit(10)), BreakStmt())]))
+	FuncDecl(foo, ArrayType([2, 3], StringType), [Param(n, IntegerType), Param(str, StringType)], None, BlockStmt([]))
+])

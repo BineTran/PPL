@@ -1,0 +1,1 @@
+for(integer i = 0; i < 100; i = i + 1){printString("u can help me")}

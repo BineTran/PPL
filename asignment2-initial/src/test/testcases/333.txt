@@ -1,0 +1,1 @@
+a: string = func(func(5))+ func(2); 

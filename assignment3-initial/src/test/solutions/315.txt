@@ -1,0 +1,4 @@
+Program([
+	VarDecl(a, IntegerType, BinExpr(*, BinExpr(+, IntegerLit(1), IntegerLit(2)), IntegerLit(3)))
+	FuncDecl(fact, IntegerType, [Param(n, StringType)], None, BlockStmt([IfStmt(BinExpr(==, Id(n), IntegerLit(0)), ReturnStmt(IntegerLit(1)), ReturnStmt(BinExpr(*, Id(n), FuncCall(fact, [BinExpr(-, Id(n), IntegerLit(1))]))))]))
+])

@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([WhileStmt(IntegerLit(1), BlockStmt([DoWhileStmt(IntegerLit(1), BlockStmt([WhileStmt(IntegerLit(1), DoWhileStmt(IntegerLit(1), BlockStmt([ReturnStmt()])))]))]))]))
+])

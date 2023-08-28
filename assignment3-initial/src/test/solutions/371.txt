@@ -1,0 +1,5 @@
+Program([
+	FuncDecl(linearSearch, IntegerType, [Param(arr, ArrayType([1000000], IntegerType)), Param(size, IntegerType), Param(val, IntegerType)], None, BlockStmt([VarDecl(i, IntegerType), ForStmt(AssignStmt(Id(i), IntegerLit(0)), BinExpr(<, Id(i), Id(size)), IntegerLit(1), BlockStmt([IfStmt(BinExpr(==, ArrayCell(arr, [Id(i)]), Id(val)), ReturnStmt(Id(i)))])), ReturnStmt(UnExpr(-, IntegerLit(1)))]))
+	VarDecl(arr, ArrayType([5], IntegerType), ArrayLit([IntegerLit(4), IntegerLit(2), IntegerLit(6), IntegerLit(100), IntegerLit(34)]))
+	FuncDecl(main, VoidType, [], None, BlockStmt([CallStmt(linearSearch, Id(arr), IntegerLit(5), IntegerLit(100))]))
+])

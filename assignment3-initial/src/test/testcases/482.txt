@@ -1,0 +1,6 @@
+
+                    foo: function auto (a: integer, b: integer) {
+                        return a + b;
+                    }
+                    b: integer = foo(2,3);
+                

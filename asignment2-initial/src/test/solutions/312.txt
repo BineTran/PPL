@@ -1,0 +1,4 @@
+Program([
+	VarDecl(a, IntegerType, BinExpr(*, BinExpr(+, IntegerLit(1), IntegerLit(2)), IntegerLit(3)))
+	FuncDecl(_aa, IntegerType, [InheritParam(a, IntegerType)], None, BlockStmt([BreakStmt(), ReturnStmt(), WhileStmt(BinExpr(>, Id(a), Id(b)), BlockStmt([ContinueStmt()]))]))
+])

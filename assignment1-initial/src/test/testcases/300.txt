@@ -1,0 +1,5 @@
+ a: string = "Chuc mung ban da pass BTL1";
+                    quametmoi: function string (inherit n: string) {
+                        ketthuccuoochoi(123);
+                    }
+        

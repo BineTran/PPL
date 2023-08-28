@@ -1,0 +1,3 @@
+
+                foo: function float (inherit out n: integer, out b: auto, temp: string) {}
+                

@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(bine, VoidType, [Param(int, IntegerType)], None, BlockStmt([AssignStmt(Id(areuok), StringLit(i am not ok)), AssignStmt(Id(tired), StringLit(i am so tied)), ForStmt(AssignStmt(Id(tired), IntegerLit(2)), BinExpr(<, Id(tired), IntegerLit(33)), BinExpr(+, Id(tired), IntegerLit(2)), BlockStmt([CallStmt(print, ArrayLit([IntegerLit(1), IntegerLit(2), IntegerLit(4)]))]))]))
+])

@@ -1,0 +1,7 @@
+Program([
+	VarDecl(a, ArrayType([10, 2], IntegerType), ArrayLit([IntegerLit(1), IntegerLit(2)]))
+	VarDecl(b, BooleanType, BooleanLit(True))
+	VarDecl(c, StringType, IntegerLit(1))
+	VarDecl(d, StringType, IntegerLit(2))
+	VarDecl(e, FloatType, FloatLit(14000000000.0))
+])

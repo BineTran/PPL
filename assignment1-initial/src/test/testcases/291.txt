@@ -1,0 +1,13 @@
+
+                binarySearch: function integer (arr: array [1000000] of integer, l: integer, r: integer, val: integer) {
+                    if (l > r) return -1;
+                    mid: integer = (l + r) / 2;
+                    if (arr[mid] == val) return mid;
+                    else if (arr[mid] < val) binarySearch(arr, mid+1, r, 100);
+                    else binarySearch(arr, l, mid-1, 100);
+                }
+                arr: array [5] of integer = {4,2,6,100,34};
+                main: function void () {
+                    binarySearch(arr, 0, 4, 100);
+                }
+                

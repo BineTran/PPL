@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(quametmoi, StringType, [InheritParam(n, StringType)], None, BlockStmt([CallStmt(print, StringLit(tuimetquaroi)), AssignStmt(ArrayCell(a, [IntegerLit(0)]), StringLit(brrr))]))
+])

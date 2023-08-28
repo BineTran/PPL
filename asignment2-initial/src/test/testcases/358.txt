@@ -1,0 +1,6 @@
+quametmoi: function string (inherit n: string) {
+                        do {
+                            continue;
+                        }
+                        while(a > 10);
+                    }

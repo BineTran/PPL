@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(quametmoi, StringType, [InheritParam(n, StringType)], None, BlockStmt([DoWhileStmt(BinExpr(>, Id(a), IntegerLit(10)), BlockStmt([ContinueStmt()]))]))
+])

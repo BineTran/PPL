@@ -1,0 +1,10 @@
+
+                main: function void () {
+                    {
+                        a, b: integer;
+                        if (a == b) return;
+                        for (i = a, i != b, 1) a = a + 1;
+                    }
+                    return ;
+                }
+                

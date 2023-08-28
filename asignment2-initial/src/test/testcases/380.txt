@@ -1,0 +1,8 @@
+
+        main : function void (){
+             a : array [2] of boolean = {true, false};
+             print(a[2]);
+              mynameis : string  = 2;
+         }
+          mynameis : string  = 2;
+        

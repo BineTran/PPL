@@ -1,0 +1,1 @@
+bine,:,function,void,(,str,:,string,),{,printString,(,My name is Bine,),},<EOF>

@@ -1,0 +1,8 @@
+ 
+                    alo: function integer  (a: integer){
+                        return;
+                    }
+                    main: function void () {
+                        readInteger();
+                    }       
+                

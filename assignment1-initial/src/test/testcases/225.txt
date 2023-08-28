@@ -1,0 +1,6 @@
+
+                main: function void () {
+                    // x: boolean;
+                    x[1,2] = "hihi"::12::"23";
+                }
+                

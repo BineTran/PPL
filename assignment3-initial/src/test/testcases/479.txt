@@ -1,0 +1,7 @@
+
+                    foo: function auto (a: string, b: string){
+                        return a :: b;
+                    }
+                    a: float = foo("hello", "Hi");
+                    // Chu y
+                

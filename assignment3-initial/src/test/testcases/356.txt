@@ -1,0 +1,6 @@
+quametmoi: function string (inherit n: string) {
+                        do {
+                            cout(brrrr);
+                        }
+                        while(a > 10);
+                    }

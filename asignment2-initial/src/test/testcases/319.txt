@@ -1,0 +1,4 @@
+a: array [1, 2, 3] of integer = "";
+                    fact: function integer (n: auto) {
+                        while(a < 10) {}
+                    }

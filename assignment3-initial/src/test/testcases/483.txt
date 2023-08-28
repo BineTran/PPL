@@ -1,0 +1,7 @@
+
+                        
+                    foo: function integer (a: integer) {
+                        
+                    }
+                    a: integer = foo(1,2);  
+                

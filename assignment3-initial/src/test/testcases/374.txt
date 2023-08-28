@@ -1,0 +1,20 @@
+
+                a : integer = foo();
+                pow: function integer (num: integer, exp: integer) {
+                    if (exp == 0) return 1;
+                    tmp: integer = pow(num, exp/2);
+                    if (exp % 2 == 1) return tmp*tmp*num;
+                    else return tmp*tmp;
+                }
+                addDigits: function integer (num: integer) {
+                    if (num < 10) return num;
+                    res: integer = 0;
+                    while (num != 0) {
+                        res = res + num % 10;
+                        num = num / 10;
+                    }
+                    return addDigits(res);
+                }
+                main: function void () {
+                    printInteger(addDigits(12));
+                }

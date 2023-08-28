@@ -1,0 +1,6 @@
+
+                main: function void () {
+                    x: integer;
+                    x = !arr[2,3];
+                }
+                

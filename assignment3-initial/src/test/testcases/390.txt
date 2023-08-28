@@ -1,0 +1,7 @@
+
+               /* 
+         a : array [2] of float;        */
+         bine : function void (int : integer){
+         a = 2;
+         }
+        

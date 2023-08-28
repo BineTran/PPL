@@ -1,0 +1,13 @@
+
+                printRec: function void (n: integer) {
+                    if (n < 0) printInteger(n);
+                    else {
+                        printInteger(n);
+                        printRec(n-5);
+                        printInteger(n);
+                    }
+                }
+                main: function void () {
+                    printRec();
+                }
+                

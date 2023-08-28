@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(gcd, IntegerType, [Param(a, IntegerType), Param(b, IntegerType)], None, BlockStmt([IfStmt(BinExpr(>, Id(a), Id(b)), CallStmt(gcd, BinExpr(-, Id(a), Id(b)), Id(b))), IfStmt(BinExpr(>, Id(b), Id(a)), CallStmt(gcd, Id(a), BinExpr(-, Id(b), Id(a)))), ReturnStmt(Id(a))]))
+])

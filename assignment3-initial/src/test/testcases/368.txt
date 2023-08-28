@@ -1,0 +1,5 @@
+main : function void (abc : array [2] of float){
+             for(int = 2, int < int, int + int){
+                 return int + int;
+             }
+         }

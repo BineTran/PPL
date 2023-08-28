@@ -1,0 +1,1 @@
+ a: string = 123_123 + "sad" + func(2); 

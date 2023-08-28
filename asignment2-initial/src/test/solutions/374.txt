@@ -1,0 +1,6 @@
+Program([
+	VarDecl(a, IntegerType, FuncCall(foo, []))
+	FuncDecl(pow, IntegerType, [Param(num, IntegerType), Param(exp, IntegerType)], None, BlockStmt([IfStmt(BinExpr(==, Id(exp), IntegerLit(0)), ReturnStmt(IntegerLit(1))), VarDecl(tmp, IntegerType, FuncCall(pow, [Id(num), BinExpr(/, Id(exp), IntegerLit(2))])), IfStmt(BinExpr(==, BinExpr(%, Id(exp), IntegerLit(2)), IntegerLit(1)), ReturnStmt(BinExpr(*, BinExpr(*, Id(tmp), Id(tmp)), Id(num))), ReturnStmt(BinExpr(*, Id(tmp), Id(tmp))))]))
+	FuncDecl(addDigits, IntegerType, [Param(num, IntegerType)], None, BlockStmt([IfStmt(BinExpr(<, Id(num), IntegerLit(10)), ReturnStmt(Id(num))), VarDecl(res, IntegerType, IntegerLit(0)), WhileStmt(BinExpr(!=, Id(num), IntegerLit(0)), BlockStmt([AssignStmt(Id(res), BinExpr(+, Id(res), BinExpr(%, Id(num), IntegerLit(10)))), AssignStmt(Id(num), BinExpr(/, Id(num), IntegerLit(10)))])), ReturnStmt(FuncCall(addDigits, [Id(res)]))]))
+	FuncDecl(main, VoidType, [], None, BlockStmt([CallStmt(printInteger, FuncCall(addDigits, [IntegerLit(12)]))]))
+])

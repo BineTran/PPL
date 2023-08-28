@@ -1,0 +1,7 @@
+a: integer = (1 + 2) * 3;
+                    _aa: function integer(inherit out a: float, b: integer) {
+                        break;
+                        return;
+                        for(a[0] = 5, a < 10, a + 1)
+                           break;
+                    }

@@ -1,0 +1,8 @@
+a: integer = (1 + 2) * 3;
+                    _aa: function integer(inherit a: integer) {
+                        break;
+                        return;
+                        while(a > b) {
+                            continue;
+                        }
+                    }

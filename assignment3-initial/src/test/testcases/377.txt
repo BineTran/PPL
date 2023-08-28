@@ -1,0 +1,11 @@
+
+        a: string = a["123"] + fc(_aa);
+        a: boolean = fc(fc({1, 2, 3})) + {1, 2, "a"};
+        a: boolean = fc(fc({1, 2, 3})) + abc;
+        quametmoi: function string (inherit n: string) {
+                        return 5;
+                        while(a > 10)
+                             break;
+                     }
+        foo: function array [2,3] of string (n: integer, str: string) {}
+        

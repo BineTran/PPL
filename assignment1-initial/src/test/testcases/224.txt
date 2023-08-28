@@ -1,0 +1,6 @@
+
+                main: function void () {
+                    x: boolean;
+                    x = -(readInteger() + 23) == foo();
+                }
+                

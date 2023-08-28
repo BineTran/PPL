@@ -1,0 +1,6 @@
+
+                main: function void () {
+                    x = readFloat() + 1;
+                    printFloat(x);
+                }
+                

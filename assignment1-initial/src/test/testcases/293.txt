@@ -1,0 +1,9 @@
+
+                sumTo: function integer (n: integer) {
+                    if (n == 0) return 0;
+                    else return n + sumTo(n-1);
+                }
+                main: function void () {
+                    sumTo(100);
+                }
+                

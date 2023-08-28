@@ -1,0 +1,14 @@
+
+                concatNString: function string (arr: array [1000000] of string, n: integer) {
+                    i: integer;
+                    res: string = "";
+                    for (i = 0, i < n, 1) {
+                        res = res :: arr[i];
+                    }
+                    return res;
+                }
+                main: function void () {
+                    arr: array [5] of string = {"Hello ", "World, ", "Coding ", "With ", "MT22 Language!"};
+                    printString(concatNString(arr, 5));
+                }
+                

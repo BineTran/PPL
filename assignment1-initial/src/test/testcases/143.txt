@@ -1,0 +1,1 @@
+readInteger()printInteger(anArg: integer)readFloat()writeFloat(anArg: float)readBoolean()printBoolean(anArg: boolean)readString()printString(anArg: string)

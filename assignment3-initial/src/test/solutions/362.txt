@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(quametmoi, StringType, [InheritParam(n, StringType)], None, BlockStmt([CallStmt(quametmoi, BinExpr(+, Id(n), IntegerLit(100)))]))
+])

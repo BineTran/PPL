@@ -1,0 +1,6 @@
+a: array[10, 2] of integer = {1, 2};
+                    /* This is comment */
+                   b: boolean = true;
+                   c: string = 1;
+                   d: string = 2;
+                   e: float = 1.4e10;

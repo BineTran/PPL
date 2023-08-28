@@ -1,0 +1,6 @@
+
+              main : function void () {
+             if (! a % 3) abc = 2;
+             else abc = 3;
+         }
+        

@@ -1,0 +1,4 @@
+ fact: integer (n: auto) {
+                        while(a)
+                            if(a < 10) a = a + 1
+                    } 

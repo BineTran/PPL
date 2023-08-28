@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(fibo, IntegerType, [Param(n, IntegerType)], None, BlockStmt([IfStmt(BinExpr(<, Id(n), IntegerLit(2)), ReturnStmt(IntegerLit(1))), VarDecl(f1, IntegerType, IntegerLit(1)), VarDecl(f2, IntegerType, IntegerLit(1)), ForStmt(AssignStmt(Id(i), IntegerLit(2)), BinExpr(<=, Id(i), Id(n)), IntegerLit(1), BlockStmt([AssignStmt(Id(f1), BinExpr(+, BinExpr(+, Id(f2), Id(f2)), Id(f1))), AssignStmt(Id(f2), BinExpr(-, Id(f1), Id(f2))), AssignStmt(Id(f1), BinExpr(-, Id(f1), Id(f2)))])), ReturnStmt(Id(f2))]))
+	FuncDecl(main, VoidType, [], None, BlockStmt([CallStmt(fibo, IntegerLit(100))]))
+])

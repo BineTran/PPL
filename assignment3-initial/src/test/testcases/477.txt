@@ -1,0 +1,10 @@
+
+                    foo: function void(){
+                        
+                    }
+                    main: function void() {
+                        foo: integer = 1; 
+                        x: integer = foo();
+                        x = foo;
+                    }
+                

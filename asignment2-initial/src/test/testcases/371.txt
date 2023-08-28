@@ -1,0 +1,11 @@
+linearSearch: function integer (arr: array [1000000] of integer, size: integer, val: integer) {
+                    i: integer;
+                    for (i = 0, i < size, 1) {
+                        if (arr[i] == val) return i;
+                    }
+                    return -1;
+                }
+                arr: array [5] of integer = {4,2,6,100,34};
+                main: function void () {
+                    linearSearch(arr, 5, 100);
+                }

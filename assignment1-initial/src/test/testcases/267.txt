@@ -1,0 +1,13 @@
+
+                fact: function integer (n: integer) {
+                    if (n <= 1) return 1;
+                    i, res: integer = 0, 1;
+                    for (i = 2, i <= 2, 1) {
+                        res = res * i;
+                    }    
+                    return res;
+                }
+                main: function void () {
+                    printInteger(fact(2*3));
+                }
+                

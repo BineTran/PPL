@@ -1,0 +1,8 @@
+
+               a: integer = 1;
+               a: array[10, 2] of integer = {};
+               a: array[10, 2] of integer = {1, 2};
+               a: array[10, 2] of integer = {1, 2};
+                     /* This is comment */
+                    b: boolean = (a >= b) && c;
+        

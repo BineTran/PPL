@@ -1,0 +1,6 @@
+
+         funcAboutArray : function array [2] of integer (a: integer, del: float){
+             for (i = 2, i < 10, i + 2) while(1){
+                 b = {1,2,4,"abc"};             }
+         }
+        

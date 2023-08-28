@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(bine, VoidType, [Param(int, IntegerType)], None, BlockStmt([CallStmt(aloalo, IntegerLit(1234))]))
+])
